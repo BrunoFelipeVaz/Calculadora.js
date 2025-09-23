@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #191013;
+    color: #f4f4f2;
+}
+
+.charKey, #equal, #clear {
+    background-color: #233A69;
+}
+
+.charKeyNumber {
+    background-color: grey;
+    color: #233A69;
+}
+
+#switchTheme {
+    background-color: #D4CDC5;
+    border: .125rem solid #f1f5f9
+    
+}
+
+#switchTheme:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+main {
+  display: block;
+  margin: 0 auto;
+  max-width: 40rem;
+  padding: 0 1.5rem 2.5rem;
+  position: relative;
+}
+
+header {
+  padding: 2rem 0;
+}
+
+button {
+  border: none;
+  border-radius: .25rem;
+  font-weight: 700;
+  padding: .5rem 1rem;
+  transition: .15s;
+}
