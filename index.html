@@ -6,10 +6,14 @@
     <title>Calculadora.js</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <main data-theme="dark">
-        <header>
+        <header class="flex align-center justify-between">
             <h1>Calculadora.js</h1>
             <button id="switchTheme"> Mudar Tema Claro / Escuro</button>
         </header>
@@ -36,8 +40,8 @@
             <button class="charKey" data-value=" % "> mod </button>
             <button id="equal">=</button>
         </div>
-        <section>
-            <button id="copy">Copy</button>
+        <section class="flex align-center justify-between">
+            <button id="copy">Copiar</button>
             <input type="text" id="result" disabled>
         </section>
     </main>

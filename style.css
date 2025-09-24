@@ -1,8 +1,9 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #191013;
+    background-color: #121416;
     color: #f4f4f2;
+    transition: .15s;
 }
 
 .charKey, #equal, #clear {
@@ -15,12 +16,13 @@ body {
 }
 
 #switchTheme {
-    background-color: #D4CDC5;
-    border: .125rem solid #f4f4f2    
+    background-color: #121416;
+    border: .125rem solid #f4f4f2;  
+    color: #f4f4f2;
 }
 
 #switchTheme:hover {
-    background-color: grey;
+    font-size: medium;
     cursor: pointer;
 }
 
@@ -30,6 +32,8 @@ main {
   max-width: 40rem;
   padding: 0 1.5rem 2.5rem;
   position: relative;
+  font-family: "Alan Sans", sans-serif;
+  font-style: normal;
 }
 
 header {
@@ -41,20 +45,24 @@ button {
   border-radius: .25rem;
   font-weight: 700;
   padding: .5rem 1rem;
-  transition: .15s;
+  font-family: "Alan Sans", sans-serif;
+  font-style: normal;
 }
 
 input {
-  background-color: #191013;
+  background-color: #121416;
   border: 2px solid #D4CDC5;
   border-radius: .5rem;
   color: #f4f4f2;
   display: block;
-  font-size: 1.75rem;
+  font-size: 1.54rem;
   margin: 0 auto;
   padding: 1rem;
   text-align: end;
-  width: 100%;
+  width: 94%;
+  font-family: "Alan Sans", sans-serif;
+  font-style: normal;
+  transition: .15s;
 }
 
 #keys {
@@ -89,4 +97,30 @@ input {
   display: block;
   height: 4.25rem;
   width: 6rem;
+  transition: .15s;
+}
+
+#copy:hover {
+  font-size: .9rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.sucess {
+  border-color: rgb(2, 180, 2) !important;
+  color: rgb(2, 180, 2) !important;
+}
+
+.error {
+  background-color: red;
 }
